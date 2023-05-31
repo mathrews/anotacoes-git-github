@@ -1,0 +1,30 @@
+1 - Criar um repositório
+2 - git init
+3 - git checkout -b main (ou git branch -M main)
+4 - git remote add origin <link>
+5 - git add .
+6 - git commit -m "comentario"
+7 - git push origin main
+
+-comandos:
+
+git config --global user.name "Seu Nome"
+
+git config --global user.email "seu-email@example.com"
+
+git config --global --list
+
+git checkout <nome da branch>
+
+git merge <nome da branch que irá ser unida à atual>
+
+Renomear{
+    git mv nome_antigo novo_nome
+
+    git add -A
+
+    git commit -m "Renomear repositório para novo_nome"
+
+    git push origin branch_principal
+}
+
